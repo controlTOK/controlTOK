@@ -22,10 +22,16 @@ button {
   font-size: calc(2.5vh + 2.5vw);
 }
 
-#control {
+#controlbar {
   width: 40vw;
   height: 10vh;
   margin-bottom: 10vh;
+}
+
+#control, #receiver {
+  width: 20vw;
+  height: 8vh;
+  margin: auto;
 }
 
 #songs button {
