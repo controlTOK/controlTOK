@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBWVD1lwyZ-cq62sNvP43rSeO1aZBXuqq4",
+        authDomain: "obratok-1544574876035.firebaseapp.com",
+        databaseURL: "https://obratok-1544574876035.firebaseio.com",
+        projectId: "obratok-1544574876035",
+        storageBucket: "",
+        messagingSenderId: "896167327390"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <link rel="stylesheet" href="./css/ionicons.min.css">
+    <link rel="stylesheet" href="./css/default.css">
+    <script src="./js/jquery-3.1.1.min.js" charset="utf-8"></script>
+    <title>CONTROL</title>
+  </head>
+  <body>
+    <div id="block">
+      <div id="controlbar">
+        <button id="control"><i class="ion-android-upload"></i></button><button id="receiver"><i class="ion-android-download"></i></button>
+      </div>
+      <div id="songs">
+        <button id="song1">1</button>
+        <br>
+        <button id="song2">2</button>
+        <br>
+        <button id="song3">3</button>
+        <br>
+        <button id="song4">4</button>
+      </div>
+    </div>
+    <script src="./js/default.js" charset="utf-8"></script>
+  </body>
+</html>
