@@ -1,0 +1,41 @@
+#block {
+  text-align: center;
+  margin: auto;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  /* height: 60%; */
+  width: 50%;
+}
+
+br {
+  line-height: 60px;
+}
+
+#songs {
+  background-color: crimson;
+}
+
+button {
+  font-size: calc(2.5vh + 2.5vw);
+}
+
+#control {
+  width: 40vw;
+  height: 10vh;
+  margin-bottom: 10vh;
+}
+
+#songs button {
+  width: 40vw;
+  height: 10vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+/* #songs {
+  background-color: crimson;
+  width: 10%;
+} */
